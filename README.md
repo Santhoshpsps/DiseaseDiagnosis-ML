@@ -42,4 +42,7 @@ It is a probabilistic classifier, which means it predicts on the basis of the pr
 Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental analysis, and classifying articles.
 
 # Final Output 
+<p align="center">
+<img src="https://github.com/Santhoshpsps/DiseaseDiagnosis-ML/blob/main/result.PNG" height="400" width="500">
+ </p>
 
