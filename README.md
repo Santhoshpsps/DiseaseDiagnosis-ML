@@ -5,7 +5,7 @@ Implementation of various machine learning algorithms to predict the disease fro
 
 DiseaseDiagnosis done using the symptoms given by the user.
 
-# Algorithms Studied
+# Algorithms 
 
 1. Decision Tree
 2. Random Forest
