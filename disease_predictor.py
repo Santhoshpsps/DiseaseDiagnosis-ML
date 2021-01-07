@@ -1,7 +1,6 @@
 from tkinter import *
 import numpy as np
 import pandas as pd
-# from gui_stuff import *
 
 l1=['back_pain','constipation','abdominal_pain','diarrhoea','mild_fever','yellow_urine',
 'yellowing_of_eyes','acute_liver_failure','fluid_overload','swelling_of_stomach',
@@ -39,6 +38,7 @@ for x in range(0,len(l1)):
     l2.append(0)
 
 # TESTING DATA df -------------------------------------------------------------------------------------
+#Mention the path for the Training DataSet
 df=pd.read_csv("Training.csv")
 
 df.replace({'prognosis':{'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic cholestasis':3,'Drug Reaction':4,
@@ -60,6 +60,7 @@ np.ravel(y)
 # print(y)
 
 # TRAINING DATA tr --------------------------------------------------------------------------------
+#Mention the path for the Testing DataSet
 tr=pd.read_csv("Testing.csv")
 tr.replace({'prognosis':{'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic cholestasis':3,'Drug Reaction':4,
 'Peptic ulcer diseae':5,'AIDS':6,'Diabetes ':7,'Gastroenteritis':8,'Bronchial Asthma':9,'Hypertension ':10,
